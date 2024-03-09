@@ -52,8 +52,10 @@
 
 name = ['John','Kofi','Michael', 'Brad']
 
-name.insert(0, 'Kwame')
-name.insert(1, 'Kweku') 
+# name.insert(0, 'Kwame')
+# name.insert(1, 'Kweku') 
+# for x in name:
+#     print(x)
 
-print (name)
+print(len(name))
 
