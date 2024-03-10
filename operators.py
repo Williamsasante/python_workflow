@@ -1,2 +1,7 @@
-num = 2**5
-print (num)
+a = 9
+b = 9
+
+if a!=b:
+    print ("true")
+else:
+    print ("false")
