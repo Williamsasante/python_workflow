@@ -1,8 +1,9 @@
-outer = [1, 2, 3]
-inner = ['dog', 'cat', 'bird', 'fish', 'turtle']
+outer = ['Will', 'Mark', 'Dan']
+inner = ['IT', 'Business', 'Marketing','Finance', 'HR']
 
 for x in outer:
+    print(x)
 
     for y in inner:
-        print(x,y)
-        print("\n")
+        print(y)
+    print("\n")
