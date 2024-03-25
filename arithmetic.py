@@ -1,6 +1,6 @@
-a=3
-b=5
-c=7
+a = 24
+b = 5
+c = 7
 
 print(a is b)
 print(c is not a)
@@ -12,4 +12,13 @@ print(2 in numbers)
 
 print("--------------------------------")
 colors = ["red", "blue", "green", "yellow"]
-print("red" in colors)
+print("purple" not in colors)
+
+# binary is bin
+print("--------------------------------")
+
+print(bin(a))
+
+print("--------------------------------")
+
+print(bin(a & b))
